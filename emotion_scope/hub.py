@@ -25,7 +25,7 @@ from typing import Optional
 from emotion_scope.config import RESULTS_DIR, VECTORS_DIR, FIGURES_DIR
 
 # Default HF repo for pre-extracted vectors shipped by the project
-DEFAULT_HUB_REPO = os.environ.get("ES_HUB_REPO", "AidanZach/EmotionScope-vectors")
+DEFAULT_HUB_REPO = os.environ.get("ES_HUB_REPO", "saanidhi-git/EmotionScope-vectors")
 
 
 def _model_slug(model_name: str) -> str:
@@ -189,7 +189,7 @@ def _generate_hub_readme(model_name: Optional[str], files: list) -> str:
     lines = [
         "# EmotionScope — Pre-extracted Emotion Vectors",
         "",
-        "Pre-extracted emotion direction vectors from [EmotionScope](https://github.com/AidanZach/EmotionScope),",
+        "Pre-extracted emotion direction vectors from [EmotionScope](https://github.com/saanidhi-git/EmotionScope),",
         "an open-source toolkit for probing functional emotion representations in language model residual streams.",
         "",
         "## Usage",

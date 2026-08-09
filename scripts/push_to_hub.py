@@ -3,16 +3,16 @@ Push extracted vectors and figures to HuggingFace Hub.
 
 Usage:
     # Push everything to your repo
-    uv run python scripts/push_to_hub.py --repo AidanZach/EmotionScope-vectors
+    uv run python scripts/push_to_hub.py --repo saanidhi-git/EmotionScope-vectors
 
     # Push vectors for a specific model only
     uv run python scripts/push_to_hub.py \
-        --repo AidanZach/EmotionScope-vectors \
+        --repo saanidhi-git/EmotionScope-vectors \
         --model google/gemma-2-2b-it
 
     # Push without figures
     uv run python scripts/push_to_hub.py \
-        --repo AidanZach/EmotionScope-vectors \
+        --repo saanidhi-git/EmotionScope-vectors \
         --no-figures
 
 Requires: `hf login` or HF_TOKEN environment variable.
@@ -30,7 +30,7 @@ def main():
         description="Push EmotionScope vectors and figures to HuggingFace Hub"
     )
     parser.add_argument("--repo", required=True,
-                        help="HF repo ID (e.g., AidanZach/EmotionScope-vectors)")
+                        help="HF repo ID (e.g., saanidhi-git/EmotionScope-vectors)")
     parser.add_argument("--model", default=None,
                         help="Specific model to upload vectors for (default: all)")
     parser.add_argument("--no-figures", action="store_true",

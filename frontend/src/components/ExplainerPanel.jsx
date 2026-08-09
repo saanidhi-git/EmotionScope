@@ -73,7 +73,7 @@ export default function ExplainerPanel({ hasSpeakerSep = false }) {
               Read Anthropic's paper
             </a>
             <a
-              href="https://github.com/AidanZach/EmotionScope"
+              href="https://github.com/saanidhi-git/EmotionScope"
               target="_blank"
               rel="noopener noreferrer"
             >
