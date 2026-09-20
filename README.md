@@ -2,7 +2,7 @@
 
 **Extract, probe, and visualize functional emotion vectors from open-weight language models.**
 
-Replicates and extends Anthropic's April 2026 paper ["Emotion Concepts and their Function in a Large Language Model"](https://transformer-circuits.pub/2026/emotions/index.html) on open-weight models that anyone can download and run.
+Replicates and extends Anthropic's April 2026 paper ["Emotion Concepts and their Function in a Large Language Model"](https://transformer-circuits.pub/2026/emotions/index.html) on open-weight models that anyone can download and run as well.
 
 <p align="center">
   <img src="results/figures/test_gallery_screenshot.png" alt="EmotionScope test gallery — animated orbs visualizing emotion vectors across validation scenarios" width="720" />
