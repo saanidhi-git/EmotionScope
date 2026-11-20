@@ -319,5 +319,9 @@ If you run EmotionScope on a different model and get results (good or bad), we'd
 - Lieberum, T., et al. (2024). "Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2."
 
 ---
+## License
+
+EmotionScope's code and extracted emotion vectors are released under the [MIT License](LICENSE).
+The underlying Gemma 2 models are subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).
 
 **Maintained by:** Saanidhi  Gade
