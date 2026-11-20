@@ -3,6 +3,7 @@ name = "emotion-scope"
 version = "0.1.0"
 description = "Extract, probe, and visualize functional emotion vectors from open-weight language models"
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.10"
 keywords = ["interpretability", "emotions", "transformers", "mechanistic-interpretability", "llm"]
 classifiers = [
